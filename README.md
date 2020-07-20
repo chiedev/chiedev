@@ -1,9 +1,12 @@
-### Hi there 👋
+<h2 align="center">Welcome to my GitHub profile!</h2>
+<p align="center">“Others inspire us, information feeds us, practice improves our performance, but we need quiet time to figure things out, to emerge with new discoveries, to unearth original answers.” ~ Ester Bucholz</p>
 
-<!--
-**chiedev/chiedev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
+### Hi there 👋 I'm Chie!
+- 🔭 I’m currently working on virtual musical tools.
+- 📫 How to reach me: [Business projects, Collaborations](https://portfolio.chiedimla.com/contact)
+- ⚡ Connect with me: [LinkedIn](https://www.linkedin.com/in/raycille-dimla), [Facebook](https://www.facebook.com/raycilledimla)
+- 🌱 I’m currently learning **React**.
+<!-- ✨ special repository ✨ 
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
@@ -14,4 +17,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=chiedev)
+
+<div align="center"> <img src="https://github-contribution-stats.vercel.app/api/?username=chiedev"></div>
