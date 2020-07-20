@@ -1,10 +1,12 @@
 <h2 align="center">Welcome to my GitHub profile!</h2>
 <p align="center">“Others inspire us, information feeds us, practice improves our performance, but we need quiet time to figure things out, to emerge with new discoveries, to unearth original answers.” ~ Ester Bucholz</p>
 
-### Hi there 👋 I'm Chie!
-- 🔭 I’m currently working on virtual musical tools.
+<div align="center"> <img src="https://github-contribution-stats.vercel.app/api/?username=chiedev"></div>
+
+### Hi there 👋 I'm Chie, how you doin'?
+- 🔭 I’m currently working on virtual musical tools. Tabs generator module will be out soon. You can check the first version of virtual piano here: [oMusic Laboratory](https://omusiclab.com/)
 - 📫 How to reach me: [Business projects, Collaborations](https://portfolio.chiedimla.com/contact)
-- ⚡ Connect with me: [LinkedIn](https://www.linkedin.com/in/raycille-dimla), [Facebook](https://www.facebook.com/raycilledimla)
+- ⚡ Connect with me: [LinkedIn](https://www.linkedin.com/in/raycille-dimla)
 - 🌱 I’m currently learning **React**.
 <!-- ✨ special repository ✨ 
 
@@ -17,5 +19,3 @@
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-<div align="center"> <img src="https://github-contribution-stats.vercel.app/api/?username=chiedev"></div>
