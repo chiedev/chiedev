@@ -9,7 +9,7 @@
 - 🔭 I’m currently working on virtual musical tools. Guitar and Ukulele tabs generator module will be out soon. You can check the first version of virtual piano here: [oMusic Laboratory](https://omusiclab.com/)
 - 📫 How to reach me: [business projects, collaborations](https://portfolio.chiedimla.com/contact)
 - ⚡ Connect with me: [LinkedIn](https://www.linkedin.com/in/raycille-dimla)
-- 🌱 I’m currently learning **React**.
+- 🌱 I’m currently learning **GitHub** functionalities, **React**, **GraphQL**, and **NodeJS**.
 <!-- ✨ special repository ✨ 
 
 - 🔭 I’m currently working on ...
