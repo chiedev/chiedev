@@ -6,10 +6,12 @@
 <div align="center"><img src="https://wakatime.com/share/@cdf58d70-d6e8-428e-9931-e9cd333c4641/65032dff-4e6b-4149-b2e1-5e5f313d73f3.svg"></div>
 
 ### Hi there 👋 I'm Chie, how you doin'?
-- 🔭 I’m currently working on virtual musical tools. Guitar and Ukulele tabs generator module will be out soon. You can check the first version of virtual piano here: [oMusic Laboratory](https://omusiclab.com/)
+- 🔭 I’m currently working on something cool.
 - 📫 How to reach me: [business projects, collaborations](https://portfolio.chiedimla.com/contact)
 - ⚡ Connect with me: [LinkedIn](https://www.linkedin.com/in/raycille-dimla)
 - 🌱 I’m currently learning **GitHub** functionalities, **React**, **GraphQL**, and **NodeJS**.
+- ✨ I like to develop musical tools for fun. You can check some of them here [Virtual Piano](https://omusiclab.com/), [Simple Guitar & Ukulele Tabs Generator](https://tabs.omusiclab.com/)
+
 <!-- ✨ special repository ✨ 
 
 - 🔭 I’m currently working on ...
