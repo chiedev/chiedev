@@ -33,23 +33,44 @@
             width: 40px;
         }
     }
-    #v-pills-tab {
-        display: table-cell;
-        width: 350px;
-        vertical-align: top;
-    }
-    #v-pills-tabContent {
-        display: table-cell;
-        width: auto;
-    }
-    @media only screen and ( max-width: 768px ){
+    #tab-container {
+        display: table;
+        width: 100%;
+        .fix-mobile {
+            // width: auto;
+            // min-height: 300px;
+        }
         #v-pills-tab {
-            display: block;
-            width: 100%;
+            display: table-cell;
+            width: 350px;
+            vertical-align: top;
         }
         #v-pills-tabContent {
+            display: table-cell;
+            width: calc(100% - 350px);
+        }
+    }
+    #feed {
+        width: 100%;
+    }
+    @media only screen and ( max-width: 768px ){
+        #tab-container {
             display: block;
-            width: auto;
+            .fix-mobile {
+                width: 100% !important;
+                min-height: 300px !important;
+            }
+            .display-none-mobile {
+                display: none;
+            }
+            #v-pills-tab {
+                display: block;
+                width: 100%;
+            }
+            #v-pills-tabContent {
+                display: block;
+                width: 100%;
+            }
         }
     }
     .nav-pills {

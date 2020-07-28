@@ -130,23 +130,40 @@
 [data-theme=default] .icon.small {
   width: 40px;
 }
-[data-theme=default] #v-pills-tab {
+[data-theme=default] #tab-container {
+  display: table;
+  width: 100%;
+}
+[data-theme=default] #tab-container #v-pills-tab {
   display: table-cell;
   width: 350px;
   vertical-align: top;
 }
-[data-theme=default] #v-pills-tabContent {
+[data-theme=default] #tab-container #v-pills-tabContent {
   display: table-cell;
-  width: auto;
+  width: calc(100% - 350px);
+}
+[data-theme=default] #feed {
+  width: 100%;
 }
 @media only screen and (max-width: 768px) {
-  [data-theme=default] #v-pills-tab {
+  [data-theme=default] #tab-container {
+    display: block;
+  }
+  [data-theme=default] #tab-container .fix-mobile {
+    width: 100% !important;
+    min-height: 300px !important;
+  }
+  [data-theme=default] #tab-container .display-none-mobile {
+    display: none;
+  }
+  [data-theme=default] #tab-container #v-pills-tab {
     display: block;
     width: 100%;
   }
-  [data-theme=default] #v-pills-tabContent {
+  [data-theme=default] #tab-container #v-pills-tabContent {
     display: block;
-    width: auto;
+    width: 100%;
   }
 }
 [data-theme=default] .nav-pills .nav-link.active,
