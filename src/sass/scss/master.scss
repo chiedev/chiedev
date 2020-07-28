@@ -6,11 +6,30 @@
 [data-theme=default] {
     @import '../components/switch';
     font-family: $font_family;
-    > div {
+    #body-content {
         max-width: 1200px;
+        margin: auto;
     }
     h1, h2, h3, h4, h5, h6 {
         font-weight: 700;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.75em;
+    }
+    h3 {
+        font-size: 1.25em;
+    }
+    h4 {
+        font-size: 1em;
+    }
+    h5 {
+        font-size: .75em;
+    }
+    h6 {
+        font-size: .75em;
     }
     a {
         color: $secondary_color;
@@ -21,7 +40,7 @@
     }
     .icon {
         @include transition(.2s);
-        width: 50px;
+        width: 100px;
         cursor: pointer;
         &:hover {
             transform: scale(1.2);
@@ -31,6 +50,35 @@
         }
         &.small {
             width: 40px;
+        }
+    }
+    .text- {
+        &#{large} {
+            @extend h2;
+        }
+        &#{center} {
+            text-align: center;
+        }
+    }
+    .logo-brands {
+        display: block;
+        a.logo-brand {
+            display: inline-block;
+            vertical-align: top;
+            margin: 0 1em;
+            span {
+                height: 75px;
+                display: block;
+                width: min-content;
+                min-width: 100%;
+            }
+            .fb-like {
+                display: block;
+                margin-top: 1em;
+            }
+            img {
+                max-height: 200px;
+            }
         }
     }
     #tab-container {
@@ -89,6 +137,17 @@
                 cursor: pointer;
             }
         }
+    }
+    .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle, 
+    .btn-primary {
+        color: $secondary_text_color;
+        background-color: $secondary_color;
+        border-color: transparentize($secondary_color, .5);
+    }
+    .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus, 
+    .btn-primary.focus, .btn-primary:focus {
+        box-shadow: 0 0 0 0.2rem transparentize($secondary_color, .5)
+
     }
 }
 @import '../utilities/dark-theme';
