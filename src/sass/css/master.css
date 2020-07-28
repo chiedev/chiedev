@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+[data-theme=default] {
+  /** 
+   * Switch
+   */
+  font-family: "Nunito", sans-serif;
+}
+[data-theme=default] .switch {
+  vertical-align: middle;
+}
+[data-theme=default] .switch label {
+  display: inline-block;
+  min-width: 7em;
+}
+[data-theme=default] .switch label[for=switch] {
+  color: #333333;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  line-height: 3em;
+}
+[data-theme=default] .switch label[for=switch]:after {
+  content: " ";
+}
+[data-theme=default] .switch .nav {
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  cursor: pointer;
+  background-color: white;
+  position: relative;
+  display: inline-block;
+  width: 5em;
+  height: 2.5em;
+  border-radius: 1.5em;
+  vertical-align: middle;
+  background-size: 14px;
+  background-repeat: no-repeat;
+  background-position: 3.5em;
+  box-shadow: inset 0 0 7px -3px rgba(0, 0, 0, 0.5);
+}
+[data-theme=default] .switch .nav nav {
+  box-shadow: 0 0.3em 0 0 #d4d4d4;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  position: absolute;
+  width: 2.25em;
+  height: 2.25em;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  margin: auto unset auto auto;
+  border-radius: 100%;
+  background-color: #fafafa;
+  box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+[data-theme=default] .switch .nav nav:active {
+  transform: translate(0, 0.3em);
+  -webkit-transform: translate(0, 0.3em);
+  box-shadow: none;
+}
+[data-theme=default] .switch .nav nav:active {
+  transform: translate(0, 0.05em);
+  -webkit-transform: translate(0, 0.05em);
+  box-shadow: none;
+}
+[data-theme=default] .switch span {
+  font-size: 0.85em;
+  line-height: 1em;
+}
+[data-theme=default] .switch[checked] .nav, [data-theme=default] .switch[checked]:hover .nav {
+  background: #E0678F;
+  background-size: 17px;
+  background-repeat: no-repeat;
+  background-position: 0.5em;
+}
+[data-theme=default] .switch[checked] .nav nav, [data-theme=default] .switch[checked]:hover .nav nav {
+  top: 1px;
+  bottom: 1px;
+  left: unset;
+  right: 1px;
+  margin: auto auto auto unset;
+  background-color: white;
+}
+[data-theme=default] .switch:hover {
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+}
+[data-theme=default] .switch:hover .nav {
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+  background-color: white;
+}
+[data-theme=default] > div {
+  max-width: 1200px;
+}
+[data-theme=default] h1, [data-theme=default] h2, [data-theme=default] h3, [data-theme=default] h4, [data-theme=default] h5, [data-theme=default] h6 {
+  font-weight: 700;
+}
+[data-theme=default] a {
+  color: #E0678F;
+}
+[data-theme=default] a:hover, [data-theme=default] a:active {
+  color: #e47c9f;
+}
+[data-theme=default] .icon {
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+  width: 50px;
+  cursor: pointer;
+}
+[data-theme=default] .icon:hover {
+  transform: scale(1.2);
+}
+[data-theme=default] .icon:active {
+  transform: scale(1.4);
+}
+[data-theme=default] .icon.small {
+  width: 40px;
+}
+[data-theme=default] #v-pills-tab {
+  display: table-cell;
+  width: 350px;
+  vertical-align: top;
+}
+[data-theme=default] #v-pills-tabContent {
+  display: table-cell;
+  width: auto;
+}
+@media only screen and (max-width: 768px) {
+  [data-theme=default] #v-pills-tab {
+    display: block;
+    width: 100%;
+  }
+  [data-theme=default] #v-pills-tabContent {
+    display: block;
+    width: auto;
+  }
+}
+[data-theme=default] .nav-pills .nav-link.active,
+[data-theme=default] .nav-pills .nav-link.active:hover,
+[data-theme=default] .nav-pills .nav-link:active,
+[data-theme=default] .nav-pills .show > .nav-link {
+  color: #ffffff;
+  background-color: #E0678F;
+  cursor: default;
+}
+[data-theme=default] .nav-pills .nav-link:hover {
+  color: #ffffff;
+  background-color: #eda7be;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=master.css.map */

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import '../utilities/base';
+@import '../utilities/default-theme';
+
+@import '../utilities/mixin';
+[data-theme=default] {
+    @import '../components/switch';
+    font-family: $font_family;
+    > div {
+        max-width: 1200px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 700;
+    }
+    a {
+        color: $secondary_color;
+        &:hover, 
+        &:active {
+            color: lighten($secondary_color, 5%);
+        }
+    }
+    .icon {
+        @include transition(.2s);
+        width: 50px;
+        cursor: pointer;
+        &:hover {
+            transform: scale(1.2);
+        }
+        &:active {
+            transform: scale(1.4);
+        }
+        &.small {
+            width: 40px;
+        }
+    }
+    #v-pills-tab {
+        display: table-cell;
+        width: 350px;
+        vertical-align: top;
+    }
+    #v-pills-tabContent {
+        display: table-cell;
+        width: auto;
+    }
+    @media only screen and ( max-width: 768px ){
+        #v-pills-tab {
+            display: block;
+            width: 100%;
+        }
+        #v-pills-tabContent {
+            display: block;
+            width: auto;
+        }
+    }
+    .nav-pills {
+        .nav-link.active, 
+        .nav-link.active:hover, 
+        .nav-link:active, 
+        .show > .nav-link {
+            color: $secondary_text_color;
+            background-color: $secondary_color;
+            cursor: default;
+        }
+        .nav-link {
+            &:hover {
+                color: $secondary_text_color;
+                background-color: lighten($secondary_color, 15%);
+                cursor: pointer;
+            }
+        }
+    }
+}
+@import '../utilities/dark-theme';
+[data-theme=dark] {
+
+}

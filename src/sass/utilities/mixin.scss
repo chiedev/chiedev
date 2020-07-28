@@ -1,0 +1,69 @@
+@mixin reset() {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin proportion() {
+    // border-radius: .5em;
+    padding: 1.5em;
+    margin: 0;
+}
+
+@mixin user-select($value) {
+    -webkit-user-select: #{$value};
+    -moz-user-select: #{$value};
+    -ms-user-select: #{$value};
+    user-select: #{$value};
+}
+
+@mixin transition($value) {
+    -webkit-transition: #{$value};
+    -moz-transition: #{$value};
+    -ms-transition: #{$value};
+    transition: #{$value};
+}
+
+@mixin placeholder($value) {
+    ::-webkit-input-placeholder { /* Edge */
+        color: #{$value};
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #{$value};
+    }
+    ::placeholder {
+        color: #{$value};
+    }
+}
+
+@mixin appearance($value) {
+    -webkit-appearance: #{$value};
+    -moz-appearance: #{$value};
+    appearance: #{$value};
+}
+
+@mixin arrowdown($color) {
+    background-image: url('data:image/svg+xml;utf8,<svg version="1.1" id="svg-arrow-down" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 960 560" enable-background="new 0 0 960 560" xml:space="preserve"><g d="M480,344.181L268.869,131.889c-15.756-15.859-41.3-15.859-57.054,0c-15.754,15.857-15.754,41.57,0,57.431l237.632,238.937 c8.395,8.451,19.562,12.254,30.553,11.698c10.993,0.556,22.159-3.247,30.555-11.698l237.631-238.937 c15.756-15.86,15.756-41.571,0-57.431s-41.299-15.859-57.051,0L480,344.181z" /></g></svg>');
+    background-size: contain;
+    background-position-x: -.5em;
+    background-position-y: -.5em;
+}
+
+@mixin transition-delay($value) {
+    -webkit-transition-delay: #{$value};
+    -moz-transition-delay: #{$value};
+    -o-transition-delay: #{$value};
+    transition-delay: #{$value};
+}
+
+@mixin border($value) {
+    #{$value}: 1px solid transparentize($text_color, .9); 
+}
+
+@mixin emboss {
+    box-shadow: 0 .3em 0 0 darken($primary_color, 15%);
+    &:active {
+        transform: translate(0, .3em);
+        -webkit-transform: translate(0, .3em);
+        box-shadow: none;
+    }
+}
