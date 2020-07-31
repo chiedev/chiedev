@@ -9,8 +9,8 @@
 - 🔭 I’m currently working on something cool.
 - 📫 How to reach me: [business projects, collaborations](https://portfolio.chiedimla.com/contact)
 - ⚡ Connect with me: [LinkedIn](https://www.linkedin.com/in/raycille-dimla)
-- 🌱 I’m currently learning **GitHub** functionalities, **React**, **GraphQL**, and **NodeJS**.
-- ✨ I like to develop musical tools for fun. You can check some of them here [Virtual Piano](https://omusiclab.com/), [Simple Guitar & Ukulele Tabs Generator](https://tabs.omusiclab.com/)
+- 🌱 I’m currently learning **GitHub** functionalities, **React**, **GraphQL**, and **Node.js**.
+- ✨ I like to develop musical tools when I have spare time. You can check some of them here [Virtual Piano](https://omusiclab.com/), [Simple Guitar & Ukulele Tabs Generator](https://tabs.omusiclab.com/)
 
 <!-- ✨ special repository ✨ 
 
