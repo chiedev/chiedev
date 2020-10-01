@@ -13,7 +13,7 @@
 - 📫 How to reach me: [business projects, collaborations](https://portfolio.chiedimla.com/contact)
 - ⚡ Connect with me: [LinkedIn](https://www.linkedin.com/in/raycille-dimla)
 - 🌱 I’m currently learning **GitHub** functionalities, **React**, **GraphQL**, and **Node.js**.
-- ✨ I like to develop musical tools whenever I have spare time. You may check one here: [Simple Guitar & Ukulele Tabs Generator](https://tabs.omusiclab.com/)
+- ✨ I like to develop musical tools whenever I have spare time. You may check one here: [Simple Guitar & Ukulele Tabs Generator](https://www.omusiclab.com/)
 <!--- ✨ [Gömställe - Technology](https://blog.chiedimla.com/category/technology/) - I just started blogging and just trying to post topics related in web development. Hopefully this will be often and be included in my weekly routine. -->
 
 <!-- ✨ special repository ✨ 
