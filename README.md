@@ -12,7 +12,7 @@
 - 🔭 I’m currently working on something cool.
 - 📫 How to reach me: [business projects, collaborations](https://portfolio.chiedimla.com/contact)
 - ⚡ Connect with me: [LinkedIn](https://www.linkedin.com/in/raycille-dimla)
-- 🌱 I’m currently learning **GitHub** functionalities, **React**, **GraphQL**, and **Node.js**.
+- 🌱 I’m currently learning **GitHub** functionalities, Shopify theme development ~~**React**, **GraphQL**, and **Node.js**~~.
 - ✨ I like to develop musical tools whenever I have spare time. You may check one here: [Simple Guitar & Ukulele Tabs Generator](https://www.omusiclab.com/)
 
 <!-- ✨ special repository ✨ 
