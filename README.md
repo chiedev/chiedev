@@ -3,13 +3,14 @@
 
 ##  <div> <img width="100" src="https://media.tenor.com/images/1170597818a37a7c6e3e1d4baeb6e2eb/tenor.gif"> </div>I'm Chie, how you doin'?
 
-- 🔭 I’m currently working on something cool.
-- 📫 How to reach me: [business projects, collaborations](https://portfolio.chiedimla.com/contact)
+- 🔭 I’m currently working on something cool. 
 - ⚡ Connect with me: [LinkedIn](https://www.linkedin.com/in/raycille-dimla)
-- 🌱 I’m currently learning **GitHub** functionalities, Shopify theme development ~~**React**, **GraphQL**, and **Node.js**~~.
-- ✨ I like to develop musical tools whenever I have spare time. You may check one here: [Simple Guitar & Ukulele Tabs Generator](https://www.omusiclab.com/)
+- 🌱 I’m currently learning Accelerated ES6 JavaScript 
+- ✨ Here's a personal project I developed while learning web development: [Simple Guitar & Ukulele Tabs Generator](https://www.omusiclab.com/)
 
-<!-- ✨ special repository ✨ 
+<!-- TEMPLATE 
+
+✨ special repository ✨ 
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
@@ -19,4 +20,5 @@
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+
+END OF TEMPLATE-->
